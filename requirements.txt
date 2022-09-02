@@ -1,0 +1,9 @@
+# 20220825 ver1 requirements
+#pymysql
+#pandas
+google
+google-cloud
+google-cloud-vision
+google-api-python-client 
+wget
+#pillow

@@ -1,0 +1,8 @@
+#/bin/bash
+aws lambda create-function --function-name my-function \
+--runtime python3.8 \
+--role arn:aws:iam::709861978753:role/Ai-Image-Process-lambda-s3-Role \
+--code ImageUri=709861978753.dkr.ecr.ap-northeast-2.amazonaws.com/ai_image_process:latest \
+--description "AI-ImageProcess function, S3 triggered and invoke TextProcess" \
+--timeout 60 \
+--package-type Image

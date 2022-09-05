@@ -90,6 +90,7 @@ def handler(event, context):
           })
     
     print('fixed and deployed by Code Pipeline')
+    print(body, key)
     return{
         'body' : body,
         'bucket':bucket,
